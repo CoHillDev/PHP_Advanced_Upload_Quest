@@ -1,0 +1,44 @@
+/* Style pour le permis de conduire */
+#fieldset-container {
+  border: 1px solid #000;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  position: relative;
+  font-family: Arial;
+}
+#photo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+#details {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#name {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#age {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* #license-info {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 16px;
+} */
